@@ -1,11 +1,11 @@
-# Obiettivo Progetto
-Caricare a video, Mario e uno Sfondo. Poter comandare Mario con le frecce destra e sinistra aggiornando di conseguenza la direzione e gli Sprite di Mario producendo l'animazione di walking
+# Objective
+Output to the video a screen with our belowed Mario. Make it moving around by arrow keys and updating by consequences Mario sprites reproducing tha tipical walking animation.
 
 # Tool Standalone
 * 'asm6'  : assembler per MOS 6502 [in utils/assembler/]
-* 'asm6'  : emulatore per NES      [in utils/fceux/]
+* 'fceux' : emulatore per NES      [in utils/fceux/]
 
-# Struttura Folder
-* bin/   : contine le rom compilate (.asm e .nes)
-* src/   : sorgenti delle rom (.S)
-* utils/ : tool di utilità (come l'assembler asm6 e l'emulatore fceux)
+# Folder Structure
+* bin/   : contains the compiled rom (.asm e .nes)
+* src/   : contains rom sources (.S)
+* utils/ : utility tools (as the assembler asm6 and the fceux NES emulator)
